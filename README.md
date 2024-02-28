@@ -1,13 +1,13 @@
 <div align="center">
  
-![logo](https://github.com/souvikmajumder26/Land-Cover-Semantic-Segmentation-PyTorch/blob/main/assets/logo2.jpg)  
+![logo](https://github.com/jpgold830/Land-Cover-Semantic-Segmentation-PyTorch/blob/main/assets/logo2.jpg)  
 
 <h1 align="center"><strong>🛣 Land-Cover-Semantic-Segmentation-PyTorch:<h6 align="center">An end-to-end Image Segmentation (CV) project</h6></strong></h1>
 
 ![PyTorch - Version](https://img.shields.io/badge/PYTORCH-2.0+-red?style=for-the-badge&logo=pytorch)
 ![Python - Version](https://img.shields.io/badge/PYTHON-3.9+-blue?style=for-the-badge&logo=python&logoColor=white)
-[![Generic badge](https://img.shields.io/badge/License-MIT-<COLOR>.svg?style=for-the-badge)](https://github.com/souvikmajumder26/Land-Cover-Semantic-Segmentation-PyTorch/blob/main/LICENSE) 
-[![GitHub Issues](https://img.shields.io/github/issues/souvikmajumder26/Land-Cover-Semantic-Segmentation-PyTorch.svg?style=for-the-badge)](https://github.com/souvikmajumder26/Land-Cover-Semantic-Segmentation-PyTorch/issues)
+[![Generic badge](https://img.shields.io/badge/License-MIT-<COLOR>.svg?style=for-the-badge)](https://github.com/jpgold830/Land-Cover-Semantic-Segmentation-PyTorch/blob/main/LICENSE) 
+[![GitHub Issues](https://img.shields.io/github/issues/jpgold830/Land-Cover-Semantic-Segmentation-PyTorch.svg?style=for-the-badge)](https://github.com/jpgold830/Land-Cover-Semantic-Segmentation-PyTorch/issues)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg?style=for-the-badge)
 
 </div>
@@ -42,19 +42,19 @@ For example, suppose the model has been trained on all the 30 classes of the <a 
   1. Training the model on <a href="https://landcover.ai.linuxpolska.com/" target="_blank">LandCover.ai dataset</a> with '<b>train_classes</b>': <b>['background', 'building', 'woodland', 'water']</b>...
  </p>
  <p align="center">
-  <img width="60%" src="https://github.com/souvikmajumder26/Land-Cover-Semantic-Segmentation-PyTorch/blob/main/assets/training.png">
+  <img width="60%" src="https://github.com/jpgold830/Land-Cover-Semantic-Segmentation-PyTorch/blob/main/assets/training.png">
  </p>
  <p>
   2. Testing the trained model for all the classes used to train the model, i.e. '<b>test_classes</b>': <b>['background', 'building', 'woodland', 'water']</b>...
  </p>
  <p align="center">
-  <img width="90%" src="https://github.com/souvikmajumder26/Land-Cover-Semantic-Segmentation-PyTorch/blob/main/assets/all_classes.png">
+  <img width="90%" src="https://github.com/jpgold830/Land-Cover-Semantic-Segmentation-PyTorch/blob/main/assets/all_classes.png">
  </p>
  <p>
   3. Testing the trained model for selective classes as per user input, i.e. '<b>test_classes</b>': <b>['background', 'building', 'water']</b>...
  </p>
  <p align="center">
-  <img width="90%" src="https://github.com/souvikmajumder26/Land-Cover-Semantic-Segmentation-PyTorch/blob/main/assets/select_classes.png">
+  <img width="90%" src="https://github.com/jpgold830/Land-Cover-Semantic-Segmentation-PyTorch/blob/main/assets/select_classes.png">
  </p>
 
 ---
@@ -75,7 +75,7 @@ For example, suppose the model has been trained on all the 30 classes of the <a 
  
  1. Clone the repository:
  ```shell
- git clone https://github.com/souvikmajumder26/Land-Cover-Semantic-Segmentation-PyTorch.git
+ git clone https://github.com/jpgold830/Land-Cover-Semantic-Segmentation-PyTorch.git
  ```
  2. Change to the project directory:
  ```shell
@@ -107,7 +107,7 @@ For example, suppose the model has been trained on all the 30 classes of the <a 
  
  1. Clone the repository:
  ```shell
- git clone https://github.com/souvikmajumder26/Land-Cover-Semantic-Segmentation-PyTorch.git
+ git clone https://github.com/jpgold830/Land-Cover-Semantic-Segmentation-PyTorch.git
  ```
  2. Change to the project directory:
  ```shell
@@ -147,40 +147,10 @@ For example, suppose the model has been trained on all the 30 classes of the <a 
 
 ----
 
-## 📝 Citing <a name="citing"></a>
-```
-@misc{Souvik2023,
-  Author = {Souvik Majumder},
-  Title = {Land Cover Semantic Segmentation PyTorch},
-  Year = {2023},
-  Publisher = {GitHub},
-  Journal = {GitHub repository},
-  Howpublished = {\url{https://github.com/souvikmajumder26/Land-Cover-Semantic-Segmentation-PyTorch}}
-}
-```
-
-----
-
 ## 🛡️ License <a name="license"></a>
-Project is distributed under [MIT License](https://github.com/souvikmajumder26/Land-Cover-Semantic-Segmentation-PyTorch/blob/main/LICENSE)
+Project is distributed under [MIT License](https://github.com/jpgold830/Land-Cover-Semantic-Segmentation-PyTorch/blob/main/LICENSE)
 
 ---
-
-## 👏 Acknowledgements <a name="acknowledgements"></a>
- - [qubvel/segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch)
- ```
- @misc{Iakubovskii:2019,
-  Author = {Pavel Iakubovskii},
-  Title = {Segmentation Models Pytorch},
-  Year = {2019},
-  Publisher = {GitHub},
-  Journal = {GitHub repository},
-  Howpublished = {\url{https://github.com/qubvel/segmentation_models.pytorch}}
- }
- ```
- - [LandCover.ai](https://landcover.ai.linuxpolska.com/)
- - [bnsreenu/python_for_microscopists](https://github.com/bnsreenu/python_for_microscopists)
- - [leonardo.ai](https://leonardo.ai)
 
 <p align="right">
  <a href="#top"><b>🔝 Return </b></a>
